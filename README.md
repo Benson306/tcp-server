@@ -9,7 +9,12 @@ Clients can send to the server commands that the server distributes among the cl
 The package manager [npm](https://www.npmjs.com) will be used install to tcp-server
 
 ## Prerequisites
-Ensure you have [npm](https://www.npmjs.com) installed on your PC.
+Ensure you have [node.js](https://nodejs.org/en/download) installed on your PC.
+
+Ensure [npm](https://www.npmjs.com/package/npm) is installed. If not installed, run:
+```python
+npm i npm
+```
 
 Ensure you have [Netcat](https://www.cyberithub.com/install-netcat-command-on-linux/) installed
 

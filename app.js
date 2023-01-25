@@ -1,6 +1,6 @@
 const net = require('net');
 
-const N = 3; // maximum number of clients
+const N = 15; // maximum number of clients
 const clients = []; // list to hold connected clients
 let client_rank = 0;
 

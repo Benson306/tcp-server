@@ -1,6 +1,6 @@
 const net = require('net');
 
-const N = 3; // maximum number of clients
+const N = 10; // maximum number of clients
 const clients = []; // list to hold connected clients
 let client_rank = 0;
 
@@ -39,7 +39,7 @@ const server = net.createServer((socket) => {
                 clients[i].rank--;
             }
         }
-        
+
         console.log(`Connection Closed for client with rank number ${clientPos}`)
     });
 

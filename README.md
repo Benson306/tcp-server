@@ -28,17 +28,17 @@ npm install -g nodemon
 
 ## Usage
 
-```javascript
-//run the program
+```python
+#run the program
 nodemon app.js
 
-// TCP server has been started. Send request to server via Netcat listener
-// Open a new shell and execute
+# TCP server has been started. Send request to server via Netcat listener
+# Open a new shell and execute
 nc localhost 3000
 
-//server responds with a client rank
+#server responds with a client rank
 
-//Send command to server
+#Send command to server
 pwd
 ```
 
